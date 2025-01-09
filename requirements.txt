@@ -11,4 +11,3 @@ contractions
 PIL
 io
 sklearn
-streamlit_option_menu
