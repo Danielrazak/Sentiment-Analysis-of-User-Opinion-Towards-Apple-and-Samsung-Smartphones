@@ -34,7 +34,7 @@ model = joblib.load('svm_model.pkl')
 vectorizer = joblib.load('vectorizer.pkl')
 
 # Load your preprocessed dataset
-data = pd.read_csv("Dataset\\labeled_tweets.csv")
+data = pd.read_csv("Dataset/labeled_tweets.csv")
 
 # Initialize SentimentIntensityAnalyzer
 sia = SentimentIntensityAnalyzer()
