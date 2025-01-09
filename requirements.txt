@@ -1,10 +1,6 @@
 scikit-learn
 streamlit
 pandas
-joblib
-dill
 matplotlib
 seaborn
-openai
-filelock
 plotly
