@@ -9,5 +9,3 @@ wordcloud
 nltk
 contractions
 Pillow
-io
-sklearn
