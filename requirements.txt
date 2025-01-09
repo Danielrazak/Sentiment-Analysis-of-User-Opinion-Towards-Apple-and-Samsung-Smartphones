@@ -4,4 +4,4 @@ pandas
 matplotlib
 seaborn
 plotly
-option_menu
+streamlit-option-menu
