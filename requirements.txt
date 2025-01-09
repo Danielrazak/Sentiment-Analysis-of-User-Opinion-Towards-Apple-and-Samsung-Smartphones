@@ -8,6 +8,6 @@ streamlit-option-menu
 wordcloud
 nltk
 contractions
-PIL
+Pillow
 io
 sklearn
