@@ -200,7 +200,7 @@ def toggle_theme():
 current_theme = toggle_theme()
 apply_theme(current_theme)
 
-logo = Image.open('Picture\\Stata-no-bg.png')
+logo = Image.open('Picture/Stata-no-bg.png')
 # Sidebar menu
 with st.sidebar:
     menu = option_menu("Main Menu", ["Home", "Visual Insights", "Sentiment Prediction","Contact Us"],
@@ -308,10 +308,10 @@ if menu == "Home":
                 {
                     "name": "Samsung Galaxy S24 Ultra",
                     "images": {
-                        "Titanium Gray":"Picture\\S24UTG-no-bg.png",
-                        "Titanium Black":"Picture\\S24UTB-no-bg.png",
-                        "Titanium Violet":"Picture\\S24UTV-no-bg.png",
-                        "Titanium Yellow":"Picture\\S24TY-no-bg.png"
+                        "Titanium Gray":"Picture/S24UTG-no-bg.png",
+                        "Titanium Black":"Picture/S24UTB-no-bg.png",
+                        "Titanium Violet":"Picture/S24UTV-no-bg.png",
+                        "Titanium Yellow":"Picture/S24TY-no-bg.png"
                     },
                     "description": """
                     - **Display**:6.8” Dynamic AMOLED 2X QHD+ (3120 x 1440), 1-120Hz, S Pen support
@@ -330,10 +330,10 @@ if menu == "Home":
                 {
                     "name": "Samsung Galaxy S24+",
                     "images": {
-                        "Marble Gray":"Picture\\S24+MG-no-bg.png",
-                        "Onyx Black":"Picture\\S24+OB-no-bg.png",
-                        "Cobalt Violet":"Picture\\S24+CV-no-bg.png",
-                        "Amber Yellow":"Picture\\S24+AY-no-bg.png"
+                        "Marble Gray":"Picture/S24+MG-no-bg.png",
+                        "Onyx Black":"Picture/S24+OB-no-bg.png",
+                        "Cobalt Violet":"Picture/S24+CV-no-bg.png",
+                        "Amber Yellow":"Picture/S24+AY-no-bg.png"
                     },
                     "description": """
                     - **Display**: 6.7” Dynamic AMOLED 2X QHD+ (3120 × 1440), 1-120Hz
@@ -348,10 +348,10 @@ if menu == "Home":
                 {
                     "name": "Samsung Galaxy S24",
                     "images": {
-                        "Marble Gray":"Picture\\S24+MG-no-bg.png",
-                        "Onyx Black":"Picture\\S24+OB-no-bg.png",
-                        "Cobalt Violet":"Picture\\S24+CV-no-bg.png",
-                        "Amber Yellow":"Picture\\S24+AY-no-bg.png",
+                        "Marble Gray":"Picture/S24+MG-no-bg.png",
+                        "Onyx Black":"Picture/S24+OB-no-bg.png",
+                        "Cobalt Violet":"Picture/S24+CV-no-bg.png",
+                        "Amber Yellow":"Picture/S24+AY-no-bg.png",
                     },
                     "description": """
                     - **Display**: 6.2” Dynamic AMOLED 2X FHD+ (2340 x 1080), 1-120Hz
@@ -393,10 +393,10 @@ if menu == "Home":
                 {
                     "name": "Samsung Galaxy S23 Ultra",
                     "images": {
-                        "Cream":"Picture\\S23UC-no-bg.png",
-                        "Phantom Black":"Picture\\S23UBP-no-bg.png",
-                        "Green":"Picture\\S23UG-no-bg.png",
-                        "Lavender":"Picture\\S23UL-no-bg.png"
+                        "Cream":"Picture/S23UC-no-bg.png",
+                        "Phantom Black":"Picture/S23UBP-no-bg.png",
+                        "Green":"Picture/S23UG-no-bg.png",
+                        "Lavender":"Picture/S23UL-no-bg.png"
                     },
                     "description": """
                     - **Display**: 6.8” Dynamic AMOLED 2X, 120Hz, HDR10+, 1200 nits (HBM), 1750 nits (peak)
@@ -414,10 +414,10 @@ if menu == "Home":
                 {
                     "name": "Samsung Galaxy S23+",
                     "images": {
-                        "Cream":"Picture\\S23C-no-bg.png",
-                        "Phantom Black":"Picture\\S23BP-no-bg.png",
-                        "Green":"Picture\\S23G-no-bg.png",
-                        "Lavender":"Picture\\S23L-no-bg.png"
+                        "Cream":"Picture/S23C-no-bg.png",
+                        "Phantom Black":"Picture/S23BP-no-bg.png",
+                        "Green":"Picture/S23G-no-bg.png",
+                        "Lavender":"Picture/S23L-no-bg.png"
                     },
                     "description": """
                     - **Display**: 6.6” Dynamic AMOLED 2X, 120Hz, HDR10+, 1200 nits (HBM), 1750 nits (peak)
@@ -434,10 +434,10 @@ if menu == "Home":
                 {
                     "name": "Samsung Galaxy S23",
                     "images": {
-                        "Cream":"Picture\\S23C-no-bg.png",
-                        "Phantom Black":"Picture\\S23BP-no-bg.png",
-                        "Green":"Picture\\S23G-no-bg.png",
-                        "Lavender":"Picture\\S23L-no-bg.png"
+                        "Cream":"Picture/S23C-no-bg.png",
+                        "Phantom Black":"Picture/S23BP-no-bg.png",
+                        "Green":"Picture/S23G-no-bg.png",
+                        "Lavender":"Picture/S23L-no-bg.png"
                     },
                     "description": """
                     - **Display**: 6.1” Dynamic AMOLED 2X, 120Hz, HDR10+, 1200 nits (HBM), 1750 nits (peak)
@@ -483,10 +483,10 @@ if menu == "Home":
                 {
                     "name": "iPhone 16 Pro Max",
                     "images": {
-                        "Desert Titanium":"Picture\\16DT-no-bg.png",
-                        "Black Titanium":"Picture\\16BT-no-bg.png",
-                        "Natural Titanium":"Picture\\16NT-no-bg.png",
-                        "White Titanium":"Picture\\16WT-no-bg.png"
+                        "Desert Titanium":"Picture/16DT-no-bg.png",
+                        "Black Titanium":"Picture/16BT-no-bg.png",
+                        "Natural Titanium":"Picture/16NT-no-bg.png",
+                        "White Titanium":"Picture/16WT-no-bg.png"
                     },
                     "description": """
                     - **Display**: 6.9 inches Super Retina XDR Display with ProMotion (2868 x 1320)
@@ -501,10 +501,10 @@ if menu == "Home":
                 {
                     "name": "iPhone 16 Pro",
                     "images": {
-                        "Desert Titanium":"Picture\\16DT-no-bg.png",
-                        "Black Titanium":"Picture\\16BT-no-bg.png",
-                        "Natural Titanium":"Picture\\16NT-no-bg.png",
-                        "White Titanium":"Picture\\16WT-no-bg.png"
+                        "Desert Titanium":"Picture/16DT-no-bg.png",
+                        "Black Titanium":"Picture/16BT-no-bg.png",
+                        "Natural Titanium":"Picture/16NT-no-bg.png",
+                        "White Titanium":"Picture/16WT-no-bg.png"
                     },
                     "description": """
                     - **Display**: 6.3 inches Super Retina XDR Display with ProMotion (2622 x 1206)
@@ -519,11 +519,11 @@ if menu == "Home":
                 {
                     "name": "iPhone 16 Plus",
                     "images": {
-                        "Ultramarine":"Picture\\16U-no-bg.png",
-                        "Teal":"Picture\\16T-no-bg.png",
-                        "White":"Picture\\16W-no-bg.png",
-                        "Pink":"Picture\\16P-no-bg.png",
-                        "Black":"Picture\\16BL-no-bg.png"
+                        "Ultramarine":"Picture/16U-no-bg.png",
+                        "Teal":"Picture/16T-no-bg.png",
+                        "White":"Picture/16W-no-bg.png",
+                        "Pink":"Picture/16P-no-bg.png",
+                        "Black":"Picture/16BL-no-bg.png"
                     },
                     "description": """
                     - **Display**: 6.7 inches Super Retina XDR Display
@@ -538,11 +538,11 @@ if menu == "Home":
                 {
                     "name": "iPhone 16",
                     "images": {
-                        "Ultramarine":"Picture\\16U-no-bg.png",
-                        "Teal":"Picture\\16T-no-bg.png",
-                        "White":"Picture\\16W-no-bg.png",
-                        "Pink":"Picture\\16P-no-bg.png",
-                        "Black":"Picture\\16BL-no-bg.png"
+                        "Ultramarine":"Picture/16U-no-bg.png",
+                        "Teal":"Picture/16T-no-bg.png",
+                        "White":"Picture/16W-no-bg.png",
+                        "Pink":"Picture/16P-no-bg.png",
+                        "Black":"Picture/16BL-no-bg.png"
                     },
                     "description": """
                     - **Display**: 6.1 inches Super Retina XDR Display
@@ -586,10 +586,10 @@ if menu == "Home":
                 {
                     "name": "iPhone 15 Pro Max",
                     "images": {
-                        "Desert Titanium":"Picture\\15BT-no-bg.png",
-                        "Black Titanium":"Picture\\15BLT-no-bg.png",
-                        "Natural Titanium":"Picture\\15NT-no-bg.png",
-                        "White Titanium":"Picture\\15WT-no-bg.png"
+                        "Desert Titanium":"Picture/15BT-no-bg.png",
+                        "Black Titanium":"Picture/15BLT-no-bg.png",
+                        "Natural Titanium":"Picture/15NT-no-bg.png",
+                        "White Titanium":"Picture/15WT-no-bg.png"
                     },
                     "description": """
                     - **Display**: 6.7 inches Super Retina XDR Display with ProMotion
@@ -604,10 +604,10 @@ if menu == "Home":
                 {
                     "name": "iPhone 15 Pro",
                     "images": {
-                        "Desert Titanium":"Picture\\15BT-no-bg.png",
-                        "Black Titanium":"Picture\\15BLT-no-bg.png",
-                        "Natural Titanium":"Picture\\15NT-no-bg.png",
-                        "White Titanium":"Picture\\15WT-no-bg.png"
+                        "Desert Titanium":"Picture/15BT-no-bg.png",
+                        "Black Titanium":"Picture/15BLT-no-bg.png",
+                        "Natural Titanium":"Picture/15NT-no-bg.png",
+                        "White Titanium":"Picture/15WT-no-bg.png"
                     },
                     "description": """
                     - **Display**: 6.1 inches Super Retina XDR Display with ProMotion
@@ -622,11 +622,11 @@ if menu == "Home":
                 {
                     "name": "iPhone 15 Plus",
                     "images": {
-                        "Pink":"Picture\\15P-no-bg.png",
-                        "Green":"Picture\\15G-no-bg.png",
-                        "Blue":"Picture\\15B-no-bg.png",
-                        "Black":"Picture\\15BL-no-bg.png",
-                        "Yellow":"Picture\\15Y-no-bg.png"
+                        "Pink":"Picture/15P-no-bg.png",
+                        "Green":"Picture/15G-no-bg.png",
+                        "Blue":"Picture/15B-no-bg.png",
+                        "Black":"Picture/15BL-no-bg.png",
+                        "Yellow":"Picture/15Y-no-bg.png"
                     },
                     "description": """
                     - **Display**: 6.7 inches Super Retina XDR Display
@@ -641,11 +641,11 @@ if menu == "Home":
                 {
                     "name": "iPhone 15",
                     "images": {
-                        "Pink":"Picture\\15P-no-bg.png",
-                        "Green":"Picture\\15G-no-bg.png",
-                        "Blue":"Picture\\15B-no-bg.png",
-                        "Black":"Picture\\15BL-no-bg.png",
-                        "Yellow":"Picture\\15Y-no-bg.png"
+                        "Pink":"Picture/15P-no-bg.png",
+                        "Green":"Picture/15G-no-bg.png",
+                        "Blue":"Picture/15B-no-bg.png",
+                        "Black":"Picture/15BL-no-bg.png",
+                        "Yellow":"Picture/15Y-no-bg.png"
                     },
                     "description": """
                     - **Display**: 6.1 inches Super Retina XDR Display
@@ -729,7 +729,7 @@ elif menu == "Visual Insights":
 
     col1, col2, col3, col4, col5 = st.columns(5)
 
-    col1.image("Picture\\Xlogo-no-bg.png", width=600)  # Adjust width as needed
+    col1.image("Picture/Xlogo-no-bg.png", width=600)  # Adjust width as needed
     col2.metric("Total Tweets", num_tweets)
     col3.metric("Positive Sentiments 😊", positive_tweets)
     col4.metric("Negative Sentiments 😡", negative_tweets)
