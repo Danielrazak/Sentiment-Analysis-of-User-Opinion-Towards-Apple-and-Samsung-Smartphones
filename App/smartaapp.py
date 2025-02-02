@@ -1,9 +1,10 @@
 import streamlit as st
-from streamlit_option_menu import option_menu
-from smartadashboard import home_page, visual_insights, sentiment_prediction, contact_us
 
 # Set up the page configuration and any other initialization here
 st.set_page_config(page_title="Sentiment Analysis Dashboard", layout="wide", initial_sidebar_state="expanded")
+
+from streamlit_option_menu import option_menu
+from smartadashboard import home_page, visual_insights, sentiment_prediction, contact_us
 
 # Sidebar menu using option_menu
 with st.sidebar:
